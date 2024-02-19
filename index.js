@@ -1,9 +1,7 @@
 const counterDOM = document.getElementById('counter');  
 const endDOM = document.getElementById('end');  
 
-
-
-const distance = 500;
+let distance = 500;
 const camera = new THREE.OrthographicCamera( window.innerWidth/-2, window.innerWidth/2, window.innerHeight / 2, window.innerHeight / -2, 0.1, 10000 );
 
 camera.rotation.x = 50*Math.PI/180;
