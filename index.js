@@ -117,7 +117,7 @@ const initaliseValues = () => {
 
 initaliseValues();
 
-const renderer = new THREE.WebGLRenderer({
+var renderer = new THREE.WebGLRenderer({
   alpha: true,
   antialias: true
 });
