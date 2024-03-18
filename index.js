@@ -105,7 +105,7 @@ const initaliseValues = () => {
   moves = [];
   stepStartTimestamp;
 
-  chicken.position.x = 0;
+  chicken.position.x = 1;
   chicken.position.y = 0;
 
   camera.position.y = initialCameraPositionY;
