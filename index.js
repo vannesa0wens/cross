@@ -14,7 +14,7 @@ camera.position.y = initialCameraPositionY;
 camera.position.x = initialCameraPositionX;
 camera.position.z = distance;
 
-const zoom = 2;
+const zoom = 8;
 
 const chickenSize = 15;
 
