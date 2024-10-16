@@ -57,7 +57,7 @@ const addLane = () => {
   lanes.push(lane);
 }
 
-const chicken = new Chicken();
+let chicken = new Chicken();
 scene.add( chicken );
 
 hemiLight = new THREE.HemisphereLight(0xffffff, 0xffffff, 0.6);
